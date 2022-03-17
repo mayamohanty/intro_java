@@ -1,11 +1,15 @@
 class Main{
   public static void main(String[] args) {
-    System.out.println("  * ");
-    System.out.println(" * *");
-    System.out.println("* * *");
-    System.out.println("* * *");
-    System.out.println(" * *");
-    System.out.println("  *");
+
+    int variableOne=2;
+
+
+    if ((variableOne & 1)==0){
+      System.out.println("The first number is even");
+    } else{
+      System.out.println("The number is odd");
+      
+    }
     
   }
 
